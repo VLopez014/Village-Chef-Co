@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/2919964776.js" crossorigin="anonymous"></script>
+  <script src="./index.js" defer></script>
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <section id="landing_page">
+
+    <nav>
+      <div class="nav__container">
+        <div class="logo__wrapper">
+          <figure class="logo__img--wrapper">
+            <img src="./asset/logo_2.PNG" alt="" class="logo__img">
+          </figure>
+          <span class="logo__name">Village Chef & Co</span>
+        </div>
+
+        <ul class="link__list">
+          <li><a href="./index.html" class="nav__link">Home</a></li>
+          <li><a href="./menu.html" class="nav__link">Menus</a></li>
+          <li><a href="./tutorials.html" class="nav__link">Cooking Tutorials</a></li>
+          <li><a href="./index.html#meet_chef" class="nav__link">About Us</a></li>
+          <li><a href="./index.html#contacts" class="nav__link">Contact</a></li>
+        </ul>
+
+        <button class="btn__menu click" onclick="openMenu()">
+          <i class="fas fa-bars hamburger__menu"></i>
+        </button>
+
+        <div class="menu__backdrop">
+          <button class="btn__menu btn__menu--close click" onclick="closeMenu()">
+            <i class="fas fa-times x__btn"></i>
+          </button>
+
+          <ul>
+            <li class="menu__list">
+              <a href="./index.html" class="menu__link" onclick="closeMenu()">Home</a>
+            </li>
+
+            <li class="menu__list">
+              <a href="./menu.html" class="menu__link" onclick="closeMenu()">Menus</a>
+            </li>
+
+            <li class="menu__list">
+              <a href="./tutorials.html" class="menu__link" onclick="closeMenu()">Cooking Tutorials</a>
+            </li>
+
+            <li class="menu__list">
+              <a href="index.html#meet_chef" class="menu__link" onclick="closeMenu()">About Us</a>
+            </li>
+
+            <li class="menu__list">
+              <a href="./index.html#contact" class="menu__link" onclick="closeMenu()">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div class="header__container">
+        <div class="header__info--container">
+          <h1 class="website_name">Cooking Tutorials</h1>
+          
+          <p class="website_sub_heading">
+            clear and precise instructions for our adventurous patreons
+          </p>
+
+          <a href="#cajun_chicken" class="menu__btn tutorial__btn">Cajun Chicken Sausage & Shrimp</a>
+          <a href="#spicy_taquitos" class="menu__btn tutorial__btn">Spicy Chicken Taquitos</a>
+          <a href="#smores" class="menu__btn tutorial__btn">Salted S'mores Truffles</a>
+        </div>
+
+        <figure class="landing_page__img--wrapper">
+          <img src="./asset/cooking_bread.JPG" alt="" class="landing_page__img tutorials__img">
+        </figure>
+      </div>
+    </header>
+  </section>
+
+  <section id="cajun_chicken">
+    <div class="container">
+      <div class="row">
+        <h1 class="tutorial_section__title">Cajun Chicken Sausage & Shrimp</h1>
+        <div class="tutorial__wrapper">
+          <div class="food__info">
+            
+            <h3 class="ingredients">Ingredients</h3>
+            
+            <ul class="tutorial__list">
+              <li class="tutorial__item">12 ounces chicken sausage, sliced</li>
+              <li class="tutorial__item">1.5 pounds large shrimp, peeled and devined</li>
+              <li class="tutorial__item">2 tablespoons olive oil</li>
+              <li class="tutorial__item">4 tablespoons Cajun seasoning (devided)</li>
+              <li class="tutorial__item">3 cloves garlic finely minced</li>
+              <li class="tutorial__item">1 small yellow onion diced</li>
+              <li class="tutorial__item">1 tablespoon olive oil</li>
+              <li class="tutorial__item">2 green bell pepper julienned</li>
+              <li class="tutorial__item">1 red bell pepper julienned</li>
+              <li class="tutorial__item">1 cup silk Dairt-Free Heavy Whipped Cream (more if needed)</li>
+              <li class="tutorial__item">1.5 cups low-sodium chicken broth or stock</li>
+              <li class="tutorial__item">2 tablespoons salt and pepper (mixed)</li>
+              <li class="tutorial__item">1 tablespoon smoked paprika</li>
+              <li class="tutorial__item">2 cups cooked brown rice or cauliflower rice</li>
+              <li class="tutorial__item">Vegan Shaved Parmesan (optional)</li>
+              <li class="tutorial__item">1 tablespoon fresh Parsley, chopped</li>
+            </ul>
+          </div>
+          
+          <div class="food__info">
+            
+            <h3 class="ingredients">Directions</h3>
+            
+            <ol class="tutorial__list">
+              <li class="tutorial__item directions__item">
+                In a large bowl add shrimp, olive oil, 1/2 cajun seasoning and toss until coated
+              </li>
+              <li class="tutorial__item directions__item">
+                In another bowl add chicken sausage other 1/2 of cajun 
+                seasoning, and a little bit of olive oil, toss until coated
+              </li>
+              <li class="tutorial__item directions__item">
+                Heat the oil in a large skillet over medium-high heat. 
+                Cook shrimp for 5 min. or until cooked through, stirring regularly.
+                Remove from pan and set aside.
+              </li>
+              <li class="tutorial__item directions__item">
+                In the same pan add the chicken sausage and sauté 
+                until browned. Once browned remove from pan and 
+                set aside with shrimp.
+              </li>
+              <li class="tutorial__item directions__item">
+                In the same pan add olive oil and onion stir 
+                fry until translucent. Add the bell peppers 
+                and sauté for about 2-3 minutes. Then add 
+                garlic and cook until fragrant 
+                (about one minute).
+              </li>
+              <li class="tutorial__item directions__item">
+                Next, pour in the vegetable broth, and allow 
+                to come to a boil and reduce down slightly 
+                (4 minutes)
+              </li>
+              <li class="tutorial__item directions__item">
+                Reduce heat to low, add the heavy cream, 
+                and bring to a gentle simmer, while stirring 
+                occasionally. Adjust seasoning with salt, 
+                pepper, and paprika to taste.
+              </li>
+              <li class="tutorial__item directions__item">
+                Add the shrimp and sausage back into the 
+                skillet. Stir to combined then remove the 
+                heat and Enjoy!
+              </li>
+              <li class="tutorial__item directions__item">
+                Top with chopped parsley and parmesan if desired. 
+                Serve with brown rice, cauli rice (low carb option), 
+                or steamed veggies
+              </li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="container2">
+
+          <div class="tips__container">
+            <h3 class="ingredients">Tips</h3>
+            <ul class="tutorial__list">
+              <li class="tutorial__item">
+                If sauce is too loose add a little cornstarch
+                mixed with water (slurry) and simmer until
+                thickened (repeat for desired consistency)
+              </li>
+              <li class="tutorial__item">
+                After adding sausage and shrimp back to the pan.
+                be sure to take off the heat quickly so the shrimp
+                won't over cook.
+              </li>
+              <li class="tutorial__item">
+                Adding the cream changes the flavor, adjust seasoning to taste.
+                You can also add more Cajun seasoning and paprika for color
+                and taste
+              </li>
+              <li class="tutorial__item">
+                Brown chicken sausages well for texture purposes
+              </li>
+            </ul>
+          </div>
+          
+          <figure class="food_tutorial__img--wrapper">
+            <img src="./asset/tutorial-1.jpg" alt="" class="food_tutorial__img">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="spicy_taquitos">
+    <div class="container">
+      <div class="row">
+        <h1 class="tutorial_section__title">Spicy Chicken taquitos</h1>
+        <div class="tutorial__wrapper">
+          <div class="food__info">
+            
+            <h3 class="ingredients">Ingredients</h3>
+            
+            <ul class="tutorial__list">
+              <p class="color--red"> For spicy shredded chicken filling</p>
+              <li class="tutorial__item">2 large chicken breast</li>
+              <li class="tutorial__item">1 jar of salsa (spicy)</li>
+              <li class="tutorial__item">1 tablespoon of jerk seasoning</li>
+              <li class="tutorial__item">Salt and Pepper to taste</li>
+            </ul>
+
+            <h3 class="ingredients">Directions</h3>
+
+            <ol class="tutorial__list">
+              <li class="tutorial__item directions__item">
+                place chicken in crock pot
+              </li>
+              <li class="tutorial__item directions__item">
+                Season chicken with salt and pepper
+              </li>
+              <li class="tutorial__item directions__item">
+                pour salsa over chicken to cover
+              </li>
+              <li class="tutorial__item directions__item">
+                add jerk seasoning
+              </li>
+              <li class="tutorial__item directions__item">
+                set crock pot to high, cover, and cook
+                for at least 4 hours
+              </li>
+              <li class="tutorial__item directions__item">
+                shred with a fork and enjoy
+              </li>
+              
+            </ol>
+          </div>
+          
+          <div class="food__info">
+            <h3 class="ingredients">Ingredients</h3>
+            
+            <ul class="tutorial__list">
+              <p class="color--red"> For spicy chicken taquitos</p>
+              <li class="tutorial__item">2 cups shredded chicken</li>
+              <li class="tutorial__item">4 ounces cream cheese (softened)</li>
+              <li class="tutorial__item">1 1/2 cups shrap cheddar cheese (grated)</li>
+              <li class="tutorial__item">4 ounces jalapenos or chile of choice</li>
+              <li class="tutorial__item">1 teaspoon cumin</li>
+              <li class="tutorial__item">1/2 Tbs fajitas seasoning</li>
+              <li class="tutorial__item">10 small flour tortillas</li>
+              <li class="tutorial__item">olive oil or cooking spray</li>
+              <li class="tutorial__item">Optional: sour cream, Gaucamole, 
+                pico de gallo, lime, hot sauce</li>
+            </ul>
+            
+            <h3 class="ingredients">Directions</h3>
+            
+            <ol class="tutorial__list">
+              <li class="tutorial__item directions__item">
+                Prepare shredded chicken 
+              </li>
+              <li class="tutorial__item directions__item">
+                In a bowl combine and mix the chicken (drained of juice),
+                softened cream cheese, chilies, and cheddar cheese set aside
+              </li>
+              <li class="tutorial__item directions__item">
+                preheat air fryer to 400&deg; for 3 minutes
+              </li>
+              <li class="tutorial__item directions__item">
+                Lay a tortilla flat and place 3 tablespoons of the chicken cheese mix, 
+                close one end of the tortilla then roll tightly starting at the filled side.
+                repeat with remaining tortillas
+              </li>
+              <li class="tutorial__item directions__item">
+                Place fold side down in air fryer. Make sure they are not touching
+                in basket. Lightly brush or spray taquitos with oil. 
+              </li>
+              <li class="tutorial__item directions__item">
+                Cook 6-8 minutes at 400&deg; until crispy and golden. Be sure to flip
+                them half way through.
+              </li>
+              <li class="tutorial__item directions__item">
+                Serve hot, add toppings if desired and enjoy!
+              </li>
+              
+            </ol>
+          </div>
+        </div>
+
+        <div class="container2">
+    
+        <figure class="food_tutorial__img--wrapper">
+          <img src="./asset/Screen Shot 2023-05-03 at 1_03_14 AM.webp" alt="" class="food_tutorial__img">
+        </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="smores">
+    <div class="container">
+      <div class="row">
+        <h1 class="tutorial_section__title">Salted S'mores Truffles</h1>
+        <div class="tutorial__wrapper">
+          <div class="food__info">
+            
+            <h3 class="ingredients">Ingredients</h3>
+            
+            <ul class="tutorial__list">
+              <li class="tutorial__item">3 cups graham cracker</li>
+              <li class="tutorial__item">2 cup milk chocolate chips</li>
+              <li class="tutorial__item">1/2 teaspoon salt</li>
+              <li class="tutorial__item">3 cups marshmallow fluff (might need more)</li>
+              <li class="tutorial__item">2 cups milk chocolate chips for dipping</li>
+              <li class="tutorial__item">1 tbs of coconut oil</li>
+              <li class="tutorial__item">Course salt for garnish</li>
+            </ul>
+          </div>
+          
+          <div class="food__info">
+            
+            <h3 class="ingredients">Directions</h3>
+            
+            <ol class="tutorial__list">
+              <li class="tutorial__item directions__item">
+                Use food processor to crush up graham crackers into fine crumbs
+                (you can also do this by hands)
+              </li>
+              <li class="tutorial__item directions__item">
+                Place crumbs in large bowl add chocolate chips, 
+                marshmallows, and 1/2 tsp of salt
+              </li>
+              <li class="tutorial__item directions__item">
+                mix until well combined
+              </li>
+              <li class="tutorial__item directions__item">
+                Roll into balls then place them on a parchment lined sheet tray
+                freeze for 16 min.
+              </li>
+              <li class="tutorial__item directions__item">
+                Microwave chocolate chips and coconut oil in 30 sec intervals
+                stirring in between until smooth and melted. 
+              </li>
+              <li class="tutorial__item directions__item">
+                Dip balls in chocolate then place them back on parchment and freeze
+                for another 7 min until chocolate sets.s
+              </li>
+              <li class="tutorial__item directions__item">
+                Remove, sprinkle salt, and enjoy!
+              </li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="container2">
+
+          <div class="tips__container">
+            <h3 class="ingredients">Tips</h3>
+            <ul class="tutorial__list">
+              <li class="tutorial__item">
+                Dpray hands and gloves with olive oil
+                or coconut oil to avoid sticking.
+              </li>
+              <li class="tutorial__item">
+                Recipe yeilds 24 truffles
+              </li>
+            </ul>
+          </div>
+          
+          <figure class="food_tutorial__img--wrapper">
+            <img src="./asset/easy-smores-dip-recipe-720x720.webp" alt="" class="food_tutorial__img">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer__container">
+      <div class="row footer__row">
+        <figure class="footer__logo--wrapper">
+          <img src="./asset/logo_2.PNG" alt="" class="footer__logo">
+        </figure>
+
+        <div class="socials__container">
+          <div class="socials__wrapper">
+            <i class="fa-brands fa-instagram socials"></i>
+          </div>
+
+          <div class="socials__wrapper">
+            <i class="fa-brands fa-facebook-f socials"></i>
+          </div>
+        </div>
+    
+          <p class="social__account">#ChefMani</p>
+          <p class="social__account">#Villagechefandco</p>
+          <p class="social__account">Email: villagechefandco@gmail.com</p>
+
+          <p class="copyright">&copy;2023 by Village chef & Co.</p>
+      </div>
+    </div>
+  </footer>
+  
+</body>
+</html>

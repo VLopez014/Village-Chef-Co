@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/2919964776.js" crossorigin="anonymous"></script>
+  <script src="./index.js" defer></script>
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
@@ -23,10 +24,42 @@
         <ul class="link__list">
           <li><a href="./index.html" class="nav__link">Home</a></li>
           <li><a href="./menu.html" class="nav__link">Menus</a></li>
-          <li><a href="" class="nav__link">Cooking Tutorials</a></li>
-          <li><a href="#meet_chef" class="nav__link">About Us</a></li>
-          <li><a href="#contact" class="nav__link">Contact</a></li>
+          <li><a href="./tutorials.html" class="nav__link">Cooking Tutorials</a></li>
+          <li><a href="./index.html#meet_chef" class="nav__link">About Us</a></li>
+          <li><a href="./index.html#contact" class="nav__link">Contact</a></li>
         </ul>
+
+        <button class="btn__menu click" onclick="openMenu()">
+          <i class="fas fa-bars hamburger__menu"></i>
+        </button>
+
+        <div class="menu__backdrop">
+          <button class="btn__menu btn__menu--close click" onclick="closeMenu()">
+            <i class="fas fa-times x__btn"></i>
+          </button>
+
+          <ul>
+            <li class="menu__list">
+              <a href="./index.html" class="menu__link" onclick="closeMenu()">Home</a>
+            </li>
+
+            <li class="menu__list">
+              <a href="./menu.html" class="menu__link" onclick="closeMenu()">Menus</a>
+            </li>
+
+            <li class="menu__list">
+              <a href="./tutorials.html" class="menu__link" onclick="closeMenu()">Cooking Tutorials</a>
+            </li>
+
+            <li class="menu__list">
+              <a href="index.html#meet_chef" class="menu__link" onclick="closeMenu()">About Us</a>
+            </li>
+
+            <li class="menu__list">
+              <a href="index.html#contact" class="menu__link" onclick="closeMenu()">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
@@ -35,17 +68,11 @@
         <div class="header__info--container">
           <h1 class="website_name">Our Menus</h1>
           <div class="btn__container">
-            <button class="dessert__btn click">
               <a href="#dessert_menu" class="menu__btn">Dessert</a>
-            </button>
             
-            <button class="dessert__btn click">
               <a href="#event_menu" class="menu__btn">Event</a>
-            </button>
           </div>
         </div>
-
-        
 
         <figure class="landing_page__img--wrapper">
           <img src="./asset/dessert.jpg" alt="" class="landing_page__img">
@@ -90,7 +117,7 @@
             form as well. Thank you!
           </p>
 
-          <button class="form__btn"><a href="./index.html#contact" class="form_link">Contact Form</a></button>
+          <a href="./index.html#contact" class="form__btn">Contact Form</a>
         </div>
       </div>
     </div>
