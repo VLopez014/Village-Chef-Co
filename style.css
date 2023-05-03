@@ -664,12 +664,93 @@ footer {
   }
 }
 
-@media (max-width: 721px) {
+@media (max-width: 738px) {
   .website_name {
     font-size: 40px;
   }
 
   .website_sub_heading {
     font-size: 16px;
+  }
+
+  .info__wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .chef__img--wrapper {
+    margin-bottom: 32px;
+  }
+
+  .menu__btn {
+    width: 120px;
+    padding: 4px 12px;
+  }
+
+  .form__info {
+    font-size: 16px;
+  }
+
+  .form__btn {
+    padding: 12px 24px;
+  }
+
+  .tutorial__btn {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .tutorial__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tutorial_section__title {
+    text-align: center;
+  }
+
+  .food__info {
+    margin-bottom: 32px;
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tips__container {
+    margin-bottom: 32px;
+  }
+
+  .color--red {
+    width: 100%;
+  }
+}
+
+@media (max-width: 651px) {
+  .slider {
+    width: 400px;
+    height: 400px;
+  }
+
+  .service {
+    width: calc(100%);
+  }
+
+  .chef__img--wrapper {
+    width: 200px;
+    height: 200px;
+  }
+
+  .menu__event__img {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 32px;
+  }
+
+  .logo__name {
+    display: none;
   }
 }
