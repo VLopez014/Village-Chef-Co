@@ -525,6 +525,10 @@ footer {
   justify-content: space-evenly;
 }
 
+.dessert_img {
+  scale: 2;
+  padding-bottom: 1000px;
+}
 
 /* contact */
 .contact__form--background {
@@ -712,6 +716,7 @@ footer {
 
   .food__info {
     margin-bottom: 32px;
+    width: 100%;
   }
 
   .container2 {
@@ -722,10 +727,26 @@ footer {
 
   .tips__container {
     margin-bottom: 32px;
+    width: 100%;
   }
 
   .color--red {
     width: 100%;
+  }
+
+  .info__container {
+    width: 100%;
+    max-width: 500px;
+
+  }
+
+  .food_tutorial__img--wrapper {
+    width: 100%;
+  }
+
+  .dessert_img {
+    scale: 2.5;
+    padding-top: 450px;
   }
 }
 
@@ -753,4 +774,83 @@ footer {
   .logo__name {
     display: none;
   }
+
+  .website_sub_heading {
+    text-align: center;
+    max-width: 250px;
+  }
+
+  .landing_page__img {
+    scale: 2;
+  }
+
+  .tutorials__img {
+    scale: 2.6;
+    padding-bottom: 12px;
+  }
+
+  .section__title {
+    font-size: 20px;
+  }
+
+  .tutorial__btn {
+    font-size: 12px;
+    max-width: 250px;
+  }
+
+  .form_btn {
+    width: 150px;
+    padding: 4px 8px;
+  }
 }
+
+@media (max-width: 480px) {
+  .website_name {
+    font-size: 24px;
+  }
+
+  .website_sub_heading {
+    font-size: 14px;
+  }
+
+  .slider {
+    width: 300px;
+    height: 300px;
+  }
+
+  .form__info {
+    font-size: 12px;
+  }
+
+  .form__btn {
+    padding: 8px 12px;
+  }
+
+  .footer__logo--wrapper {
+    width: 150px;
+  }
+
+  .socials {
+    font-size: 16px;
+  }
+
+  .socials__wrapper {
+    width: 40px;
+    height: 40px;
+  }
+
+  .tutorial__item {
+    font-size: 14px;
+  }
+
+  .tutorial_section__title {
+    font-size: 24px;
+  }
+
+  .main_page__img {
+    scale: 2.8;
+  }
+}
+
+
+/* You could change the scale of the image and it gives it more height */
